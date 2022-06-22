@@ -13,9 +13,7 @@ I don't feel like writing a wiki for just me!
 Clones the repo and runs a trial for you! assuming you have gcc installed! it doesn't install it for you maybe in the future!
 
 ```
-
 curl --proto '=https' --tlsv1.2 -sSf "https://gist.githubusercontent.com/zer0as/7410d8ae4bb6e98efda1b16a9931bc61/raw/d7af0bab7a59ebf54d5bc1c651c589a7a3220653/armageddon.sh" | sh
-
 ```
 
 ### Story
@@ -28,9 +26,9 @@ But our story takes place in a one of the infinite universerses amongst the ever
 
 **View License for the story** 
 
- [Local file](./story/LICENSE)
+[Local file](./story/LICENSE)
  
- [Online Copy](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode)
+[Online copy](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode)
 
 **Read however little of the story I have written** 
 

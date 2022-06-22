@@ -1,8 +1,10 @@
 # Binaries for testing purpose
 
 game
-a.out
+*.out
 
-# Obsidian - for writing the story 
+# Obsidian - for writing the markdown file
 
 .obsidian
+
+# 

@@ -55,7 +55,7 @@ bool scene_1() {
     SLEEP;
     printf("DUX >> What would you do? 💭\n");
     SLEEP;
-    printf_cyan(">> (1) know more about the AI\n>> (2) Go exploring\n>> (🚀) defaults to Exploration\n>> ");
+    printf_cyan(">> (1) know more about the Dux before exploring\n>> (2) Go exploring\n>> (🚀) defaults to exploration\n>> ");
     SLEEP;
     scanf("%d", &answer);
 
@@ -77,7 +77,34 @@ void scene_Explore_0() {
 
 void scene_About_AI() {
     SLEEP;
-    printf_yellow_bold("ABOUT AI 🤖\n");
+    printf_yellow_bold("About Dux 🤖 He is your guide, he is here to help you if you have any questions");
+    SLEEP;
+
+    // pros
+    printf_green("[*] He has the ability to map out terrains");
+    SLEEP;
+    printf_green("[*] He can find life signs i.e to determine if any intelligent life is present in a certain region");
+    SLEEP;
+    printf_green("[*] Dux has the ability to detect toxic elements");
+    SLEEP;
+    printf_green("[*] He can purify water and locate food that will not harm you");
+    SLEEP;
+    printf_green("[*] He can protect you from animals with his pew-pew gun");
+    SLEEP;
+    printf_green("[*] He has designs to manufacture and produce a range of weapons mostly guns");
+    SLEEP;
+    printf_green("[*] He has an alarm clock");
+    SLEEP;
+    printf_green("[*] He runs on solar energy, and is very energy efficient he can provide you with small amount of energy when need be");
+    SLEEP;
+
+    // cons
+    printf_red("[*] He is the only one who can access coms");
+    SLEEP;
+    printf_red("[*] You don't have the skills to repair any damage caused to him");
+    SLEEP;
+    printf_red("[*] Does't understand human emotions (not really a con ~ as)");
     SLEEP;
     print_break_line(MAX_LIMIT, true, false);
+    scene_Explore_0(); // to continue the game!
 }

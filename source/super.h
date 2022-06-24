@@ -51,3 +51,13 @@ void printf_yellow_bold(char *text) {
 void printf_cyan(char *text) {
     printf(C_CYAN "\n%s" C_OFF, text);
 }
+
+// green is for "pros"
+void printf_green(char *text) {
+    printf(C_GREEN "%s\n\n" C_OFF, text);
+}
+
+// red is for cons
+void printf_red(char *text) {
+	printf(C_RED "%s\n\n" C_OFF, text);
+}
